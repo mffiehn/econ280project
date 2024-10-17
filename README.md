@@ -5,14 +5,8 @@ This document will eventually include:
 - Statement about Rights
 - License for Data (if applicable)
 - Details on each Data Source
-Dataset list
-Computational requirements
-Software Requirements
-Controlled Randomness (as necessary)
-Memory, Runtime, and Storage Requirements
-Description of programs/code
-License for Code (Optional, but recommended)
-Instructions to Replicators
-Details (as necessary)
-List of tables and programs
-References (Optional, but recommended)
+- Dataset list
+- Computational and Software requirements
+- Descriptions of programs/code
+- Instructions to Replicators
+- List of tables and programs
