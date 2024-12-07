@@ -34,17 +34,17 @@ cd "C:\Users\Martha\Dropbox\UCSD\Year 1 Quarter 1\Computation\Phillips_Curve_Rep
 
 
 * The dataset contains these variables year state quarter mean_une statecode date constant infl_reg rp qt_bartik_sa
-use "data\data_reg.dta", clear
+use "data\clean_data\data_reg.dta", clear
 
 * Visualize the data anomaly for Arizona 
 twoway line infl_reg year, by(statecode, title("Non-tradeable inflation by state") ) ///
 	name("infl_reg", replace) ytitle("Inflation") 
-	graph export "Output\infl_reg_state.png", as(png) name("infl_reg") replace
+	graph export "output\graphs\infl_reg_state.png", as(png) name("infl_reg") replace
 
 	
 twoway line mean_une year, by(statecode, title("Mean unemployment rate by state")) ///
 	name("mean_une_state", replace) ytitle("Unemploynment Rate")
-	graph export "Output\mean_une_state.png", as(png) name("mean_une_state") replace
+	graph export "output\graphs\mean_une_state.png", as(png) name("mean_une_state") replace
 
 	   
 	   
