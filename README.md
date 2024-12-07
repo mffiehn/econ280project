@@ -5,5 +5,3 @@ For Part 4 of the Replication project, the relevant files can be found in the fo
 - *data/clean_data* contains the .dta file for the main analysis 
 - *output/graphs* contains the graphs that finding_arizona.do creates.
 - *notes* contains the write-up
-
-Note that in order to run the code properly, the file locations will need to be amended. 
