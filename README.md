@@ -1,12 +1,9 @@
 # Econ_280_Repo
 
-This document will eventually include: 
-- Data Availability and Provenance Statements
-- Statement about Rights
-- License for Data (if applicable)
-- Details on each Data Source
-- Dataset list
-- Computational and Software requirements
-- Descriptions of programs/code
-- Instructions to Replicators
-- List of tables and programs
+For Part 4 of the Replication project, the relevant files can be found in the following folders: 
+- *Code/analysis_code* contains the Do-file called finding_arizona.do. To run this file, users should change their file paths to match the location of the data files
+- *data/clean_data* contains the .dta file for the main analysis 
+- *output/graphs* contains the graphs that finding_arizona.do creates.
+- *notes* contains the write-up
+
+Note that in order to run the code properly, the file locations will need to be amended. 
